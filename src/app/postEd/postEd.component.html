@@ -1,0 +1,57 @@
+<div class="post">
+  <h2>Post Component</h2>
+
+  <!-- <button (click)="backgroundToggle2 = !backgroundToggle2">Toggle2</button>
+  <button (click)="backgroundToggle2 = 3333">toggle</button> -->
+  <!-- <div
+    [ngStyle]="{
+      width: '200px',
+      height: '200px',
+      border: '1px solid #000',
+      background: backgroundToggle2 ? 'black' : 'yellow'
+    }"
+  ></div> -->
+  <!-- <p
+    [ngClass]="{
+      yellow: backgroundToggle2,
+      green: !backgroundToggle2
+    }"
+  >
+    Lorem10
+  </p> -->
+  <!-- <p *ngIf="backgroundToggle2; else yellow" class="green">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, quo.
+  </p>
+  <ng-template #yellow>
+    <p class="yellow">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, quo.
+    </p>
+  </ng-template> -->
+  <!--
+  <div [ngSwitch]="backgroundToggle2">
+    <p class="yellow" *ngSwitchCase="true">Lorem ipsum dolor sit.</p>
+    <p class="green" *ngSwitchCase="false">Lorem ipsum dolor sit.</p>
+    <p *ngSwitchDefault>Lorem ipsum dolor sit.</p>
+  </div> -->
+
+  <!-- <ul>
+    <li *ngFor="let n of arr; let i = index">{{ i + 1 }}{{ n }}</li>
+  </ul> -->
+
+  <!-- <div>
+    <ul>
+      <li *ngFor="let post of obj">
+        <span>{{ post.title }}</span>
+        <span>{{ post.author }}</span>
+        <ul>
+          <li *ngFor="let comment of post.comments">
+            <small>{{ comment.name }}</small>
+            <small>{{ comment.text }}</small>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div> -->
+
+  <p>{{ now | date }}</p>
+</div>
