@@ -13,7 +13,7 @@ export interface Post {
 })
 export class AppComponent {
   posts: Post[] = [
-    {title: 'хочу выучить Ангуляр компоненты', text: 'еще учу', id: 1},
-    {title: 'следующий блок ', text: 'про директивы', id: 2}
+    {title: 'хочу выучить ангуляр компоненты', text: 'еще учу', id: 1},
+    {title: 'следующи блок', text: 'про компоненты', id: 2}
   ]
 }
