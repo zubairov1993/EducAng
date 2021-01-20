@@ -1,22 +1,16 @@
-import {BrowserModule} from '@angular/platform-browser'
-import {NgModule} from '@angular/core'
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import {AppComponent} from './app.component'
-import {FormsModule} from '@angular/forms'
-import { CounterComponent } from './counter/counter.component'
-import {PostsComponent} from "./posts/posts.component";
-
+import {AppComponent} from './app.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    CounterComponent,
-    PostsComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    FormsModule
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
