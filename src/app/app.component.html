@@ -1,3 +1,16 @@
+<button (click)="animate()">Animate</button>
+<button (click)="boxState = 'special'">Special</button>
+<button (click)="visible = !visible">Visible</button>
+<hr />
 <div class="wrap">
-  <div class="box"></div>
+  <app-animate></app-animate>
+  <!-- <div
+    *ngIf="visible"
+    [@box]="boxState"
+    class="box"
+    (@box.start)="animationStarted($event)"
+    (@box.done)="animationDone($event)"
+  >
+    <h4>{{ boxState | uppercase }}</h4>
+  </div> -->
 </div>
